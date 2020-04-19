@@ -27,7 +27,6 @@ def lineNotifyTest(url):
     headers = {'Authorization': 'Bearer ' + LINE_NOTIFY_TOKEN }
 
     # LINE通知を行う
-
     requests.post(LINE_NOTIFY_API, data=payload, headers=headers)
 
 # URLが更新されたかチェック
